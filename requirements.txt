@@ -1,0 +1,29 @@
+# --- Core Frameworks ---
+beeai-framework[google-genai,a2a]==0.1.81
+a2a-sdk[http-server]==0.3.26
+
+# --- MCP (Model Context Protocol) ---
+mcp>=1.0.0
+fastmcp>=0.1.0
+langchain-mcp-adapters>=0.1.0
+
+# --- AI & LLM ---
+langchain>=0.2.0
+langchain-google-genai>=1.0.0
+langchain-core>=0.2.0
+
+# --- Google Services (Calendar & Auth) ---
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# --- Email & Document Processing ---
+PyPDF2>=3.0.0
+imaplib2>=3.6.0
+
+# --- Utilities & Server ---
+python-dotenv>=1.0.0
+uvicorn>=0.25.0
+starlette>=0.35.0
+python-dateutil>=2.8.2
+dateparser>=1.2.0

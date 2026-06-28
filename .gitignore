@@ -1,0 +1,44 @@
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Project Specific Secrets & Data
+token_gmail.json
+token.json
+credentials.json
+timezones.pkl
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and Databases
+*.log
+*.sqlite3
